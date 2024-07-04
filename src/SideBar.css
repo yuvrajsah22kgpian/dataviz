@@ -1,0 +1,38 @@
+.sidebar {
+    width: 18%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: -2px;
+    background-color: rgb(255, 255, 255);
+    transition: left 0.3s ease;
+    /* border:solid black 2px; */
+    text-decoration-color: black;
+    padding: 2px;
+    margin: 20px;
+    /* border-radius: 2px; */
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 5px;
+    border:solid black 2px;
+    border-radius: 10px;    
+  }
+  
+  ul li {
+    padding: 20px;
+    color: rgb(0,0,0);
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin:10px;
+    justify-content: center;
+  }
+  
+  ul li:hover {
+    background-color: #131016;
+    color: white;
+  }
+  
